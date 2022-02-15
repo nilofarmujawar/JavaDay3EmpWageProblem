@@ -2,8 +2,6 @@ package empWage;
 
 import java.util.Random;
 
-import java.util.Random;
-
 public class EmpWage {
 	
     public static void main(String[] args) {
