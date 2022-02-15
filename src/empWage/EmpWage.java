@@ -12,6 +12,8 @@ public class EmpWage {
         
         Random rand = new Random();
 
+        int empHrs;
+        
         int present = 1;
         
         int absent = 2;
@@ -41,6 +43,13 @@ public class EmpWage {
         	
             System.out.println("Employee is absent.");
         }
+
+        switch (check) {
+            case 1 -> empHrs = 8;
+            case 2 -> empHrs = 0;
+            case 3 -> empHrs = 4;
+        }
+
 
     }
 }
