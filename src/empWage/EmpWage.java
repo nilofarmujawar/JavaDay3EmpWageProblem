@@ -1,7 +1,7 @@
 package empWage;
 
 import java.util.Random;
-
+ 
 import java.util.Random;
 
 public class EmpWage {
@@ -27,6 +27,10 @@ public class EmpWage {
         int full_day_hr = 8;
         
         int part_time_hr = 8;
+        
+        int max_working_days = 20;
+        
+        int max_working_hrs = 20;
 
         if (check == present) {
         	
@@ -42,6 +46,7 @@ public class EmpWage {
         else {
         	
             System.out.println("Employee is absent.");
+            
         }
 
         switch (check) {
